@@ -9,4 +9,8 @@ app.get('/ping', (req, res) => {
     res.send('pong');
 });
 
+app.get('/pita', (req, res) => {
+    res.send('humus');
+});
+
 app.listen(port, () => console.log('listen to', port));
