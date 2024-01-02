@@ -9,27 +9,27 @@ const entities = [
             entry.name,
         ]),
     },
-    // {
-    //     title: 'Suppliers',
-    //     route: '/suppliers',
-    //     headers: ['Name', 'Email', 'City', 'Street'],
-    //     createEntityRow: entry => createRow([
-    //         entry.name,
-    //         entry.email,
-    //         entry.address.city,
-    //         entry.address.street,
-    //     ]),
-    // },
-    // {
-    //     title: 'Products',
-    //     route: '/products',
-    //     headers: ['Name', 'Price', 'Supplier'],
-    //     createEntityRow: entry => createRow([
-    //         entry.name,
-    //         entry.price,
-    //         entry.supplier.name
-    //     ]),
-    // },
+    {
+        title: 'Suppliers',
+        route: '/suppliers',
+        headers: ['Name', 'Email', 'City', 'Street'],
+        createEntityRow: entry => createRow([
+            entry.name,
+            entry.email,
+            entry.address.city,
+            entry.address.street,
+        ]),
+    },
+    {
+        title: 'Products',
+        route: '/products',
+        headers: ['Name', 'Price', 'Supplier'],
+        createEntityRow: entry => createRow([
+            entry.name,
+            entry.price,
+            entry.supplier.name
+        ]),
+    },
 ];
 
 initPage();
