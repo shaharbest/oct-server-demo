@@ -1,0 +1,46 @@
+{
+    "suppliers": [
+        {
+            "name": "LG",
+            "email": "lg@gmail.com",
+            "address": { "street": "Begin", "city": "Jerusalem" }
+        },
+        {
+            "name": "Samsung",
+            "email": "samsung@gmail.com",
+            "address": { "street": "Hertzel", "city": "Tel-Aviv" }
+        },
+        {
+            "name": "Bosch",
+            "email": "bosch@gmail.com",
+            "address": { "street": "Ben Gurion", "city": "Ashkelon" }
+        }
+    ],
+    "products": [
+        {
+            "name": "Galaxy 1",
+            "price": 10,
+            "supplierName": "Samsung"
+        },
+        {
+            "name": "Galaxy 2",
+            "price": 12,
+            "supplierName": "Samsung"
+        },
+        {
+            "name": "Laundry Machine",
+            "price": 20,
+            "supplierName": "Bosch"
+        },
+        {
+            "name": "Nuclear Missile",
+            "price": 666,
+            "supplierName": "Bosch"
+        },
+        {
+            "name": "Bad Phone",
+            "price": 5,
+            "supplierName": "LG"
+        }
+    ]
+}
